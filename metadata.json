@@ -1,0 +1,6 @@
+{
+  "name": "Executive Precision",
+  "description": "Engineered executive workspace for autonomous lead qualification, real-time SLA orchestration, and workflow pipeline automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
