@@ -166,6 +166,13 @@ export const ArrowUpDown: React.FC<IconProps> = ({ className, ...props }) => (
   </svg>
 );
 
+export const ArrowUp: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <path d="m5 12 7-7 7 7" /><path d="M12 19V5" />
+  </svg>
+);
+
+
 export const ExternalLink: React.FC<IconProps> = ({ className, ...props }) => (
   <svg {...defaultProps} className={className} {...props}>
     <path d="M15 3h6v6" /><path d="M10 14 21 3" /><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
@@ -291,11 +298,31 @@ export const User: React.FC<IconProps> = ({ className, ...props }) => (
   </svg>
 );
 
+export const RefreshCw: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
+    <path d="M21 3v5h-5" />
+    <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" />
+    <path d="M8 16H3v5" />
+  </svg>
+);
+
+
 export const Bot: React.FC<IconProps> = ({ className, ...props }) => (
   <svg {...defaultProps} className={className} {...props}>
     <rect width="18" height="12" x="3" y="6" rx="2" /><path d="M9 12h.01" /><path d="M15 12h.01" /><path d="M12 2v4" />
   </svg>
 );
+
+export const Cpu: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <rect x="4" y="4" width="16" height="16" rx="2" />
+    <rect x="9" y="9" width="6" height="6" />
+    <path d="M15 2v2" /><path d="M15 20v2" /><path d="M2 15h2" /><path d="M2 9h2" />
+    <path d="M20 15h2" /><path d="M20 9h2" /><path d="M9 2v2" /><path d="M9 20v2" />
+  </svg>
+);
+
 
 export const Terminal: React.FC<IconProps> = ({ className, ...props }) => (
   <svg {...defaultProps} className={className} {...props}>
@@ -365,3 +392,62 @@ export const History: React.FC<IconProps> = ({ className, ...props }) => (
     <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" /><path d="M12 7v5l4 2" />
   </svg>
 );
+
+export const WhatsAppIcon: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+    <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" />
+  </svg>
+);
+
+export const Stethoscope: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3" />
+    <path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4" />
+    <circle cx="20" cy="10" r="2" />
+  </svg>
+);
+
+export const Dumbbell: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <path d="m6.5 6.5 11 11" /><path d="m21 21-1-1" /><path d="m3 3 1 1" />
+    <path d="m18 22 4-4" /><path d="m2 6 4-4" />
+    <path d="m3 10 7-7" /><path d="m14 21 7-7" />
+  </svg>
+);
+
+export const GraduationCap: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+    <path d="M22 10v6" />
+    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+  </svg>
+);
+
+export const CheckCheck: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <path d="M18 6 7 17l-5-5" /><path d="m22 10-7.5 7.5L13 16" />
+  </svg>
+);
+
+export const FileSpreadsheet: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+    <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+    <path d="M8 13h2" /><path d="M14 13h2" /><path d="M8 17h2" /><path d="M14 17h2" />
+  </svg>
+);
+
+export const Activity: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+  </svg>
+);
+
+export const Award: React.FC<IconProps> = ({ className, ...props }) => (
+  <svg {...defaultProps} className={className} {...props}>
+    <circle cx="12" cy="8" r="6" /><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+  </svg>
+);
+
+

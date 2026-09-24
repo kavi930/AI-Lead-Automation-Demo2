@@ -1,6 +1,6 @@
 {
-  "name": "Executive Precision",
-  "description": "Engineered executive workspace for autonomous lead qualification, real-time SLA orchestration, and workflow pipeline automation.",
+  "name": "LeadFlow AI",
+  "description": "AI Lead Automation for Clinics, Gyms & Coaching Businesses. Capture website enquiries, qualify leads with AI, respond through WhatsApp and email, and automate appointment follow-ups.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
