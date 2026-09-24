@@ -12,7 +12,7 @@ import {
   X,
   Building2,
   ArrowRight
-} from 'lucide-react';
+} from './icons';
 
 interface CommandPaletteProps {
   isOpen: boolean;

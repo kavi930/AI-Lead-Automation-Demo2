@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plus, Search, Download, Clock, SlidersHorizontal } from 'lucide-react';
+import { Plus, Search, Download, Clock, SlidersHorizontal } from './icons';
 
 interface TopHeaderProps {
   currentView: 'pipeline' | 'table' | 'workflow' | 'transcripts' | 'analytics';

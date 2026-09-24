@@ -8,10 +8,10 @@ import {
   User, 
   Sparkles, 
   ShieldCheck, 
-  CalendarCheck,
-  Search,
-  CheckCircle2
-} from 'lucide-react';
+  CalendarCheck, 
+  Search, 
+  CheckCircle2 
+} from './icons';
 
 interface AuditTranscriptsProps {
   leads: LeadAccount[];

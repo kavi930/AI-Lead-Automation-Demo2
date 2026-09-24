@@ -12,7 +12,7 @@ import { LeadDetailDrawer } from './components/LeadDetailDrawer';
 import { NewLeadModal } from './components/NewLeadModal';
 import { CommandPalette } from './components/CommandPalette';
 import elenaAvatar from './assets/images/avatar_lead_elena_1790234055781.jpg';
-import { CheckCircle2, AlertCircle, Info } from 'lucide-react';
+import { CheckCircle2, AlertCircle, Info } from './components/icons';
 
 interface Toast {
   id: string;

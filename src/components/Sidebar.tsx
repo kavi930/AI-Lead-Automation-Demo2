@@ -11,7 +11,7 @@ import {
   Zap,
   Sparkles,
   Layers
-} from 'lucide-react';
+} from './icons';
 
 interface SidebarProps {
   currentView: 'pipeline' | 'table' | 'workflow' | 'transcripts' | 'analytics';

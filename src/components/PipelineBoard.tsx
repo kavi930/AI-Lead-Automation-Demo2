@@ -11,7 +11,7 @@ import {
   ChevronRight,
   TrendingUp,
   SlidersHorizontal
-} from 'lucide-react';
+} from './icons';
 
 interface PipelineBoardProps {
   leads: LeadAccount[];

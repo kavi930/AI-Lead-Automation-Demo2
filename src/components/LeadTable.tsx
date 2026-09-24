@@ -8,12 +8,12 @@ import {
   ExternalLink, 
   CheckSquare, 
   Square, 
-  Filter,
-  CheckCircle,
-  AlertCircle,
-  Calendar,
-  Send
-} from 'lucide-react';
+  Filter, 
+  CheckCircle, 
+  AlertCircle, 
+  Calendar, 
+  Send 
+} from './icons';
 
 interface LeadTableProps {
   leads: LeadAccount[];

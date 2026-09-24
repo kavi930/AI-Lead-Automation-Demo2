@@ -9,7 +9,7 @@ import {
   Users, 
   BarChart, 
   ArrowUpRight 
-} from 'lucide-react';
+} from './icons';
 
 interface AnalyticsViewProps {
   leads: LeadAccount[];

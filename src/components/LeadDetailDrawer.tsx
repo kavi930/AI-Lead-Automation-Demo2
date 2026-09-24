@@ -16,7 +16,7 @@ import {
   Layers,
   History,
   ShieldCheck
-} from 'lucide-react';
+} from './icons';
 
 interface LeadDetailDrawerProps {
   lead: LeadAccount | null;

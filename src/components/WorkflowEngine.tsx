@@ -11,10 +11,10 @@ import {
   Sparkles, 
   Terminal, 
   Layers, 
-  ShieldAlert,
-  ChevronRight,
-  Settings
-} from 'lucide-react';
+  ShieldAlert, 
+  ChevronRight, 
+  Settings 
+} from './icons';
 
 interface WorkflowEngineProps {
   nodes: WorkflowNode[];

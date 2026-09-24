@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { LeadAccount, ChannelSource } from '../types/crm';
-import { X, Sparkles, Building2, Mail, Phone, DollarSign, Layers } from 'lucide-react';
+import { X, Sparkles, Building2, Mail, Phone, DollarSign, Layers } from './icons';
 
 interface NewLeadModalProps {
   isOpen: boolean;
